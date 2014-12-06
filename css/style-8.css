@@ -2,26 +2,51 @@
   font: Tahoma;
   font-size: 1em;
   color: blue;
+  
+}
+
+.top h1 {
   text-decoration: line-through;
   line-height: 1.5;
   direction: ltr;
 }
 
+.top p {
+  text-transform: lowercase;
+}
+
 .middle {
   font-family: sans-serif;
   color: yellow;
-  text-shadow: 2px 2px 2px #000;
   word-spacing: 0.8em;
-  letter-spacing: 0.2em;
-  font-size: 3em;
+  
+}
 
+.middle h1 {
+  text-decoration: underline;
+  font: Helvetica; 
+
+}
+
+.middle p {
+  text-shadow: 5px 5px 5px #000;
 }
 
 .bottom {
   font: Arial, small-caps;
-  direction: rtl;
+  direction: ltr;
   color: blue;
   font-weight: bold;
   line-height: 1.5
-  text-decoration: overline;
+  
+}
+
+.bottom h1 {
+  font-weight: bold;
+}
+
+.bottom p {
+  color: pink;
+  direction: rtl;
+
 }
