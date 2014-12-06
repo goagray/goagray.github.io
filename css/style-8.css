@@ -1,0 +1,27 @@
+.top {
+  font: Tahoma;
+  font-size: 50em;
+  color: blue;
+  text-decoration: line-through;
+  line-height: 1.5;
+  direction: ltr;
+}
+
+.middle {
+  font-family: sans-serif;
+  color: yellow;
+  text-shadow: 2px 2px 2px #000;
+  word-spacing: 0.8em;
+  letter-spacing: 0.2em;
+  font-size: 75em;
+
+}
+
+.bottom {
+  font: Arial, small-caps;
+  direction: rtl;
+  color: blue;
+  font-weight: bold;
+  line-height: 1.5
+  text-decoration: overline;
+}
