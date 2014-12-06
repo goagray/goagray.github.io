@@ -1,6 +1,6 @@
 .top {
   font: Tahoma;
-  font-size: 50em;
+  font-size: 10em;
   color: blue;
   text-decoration: line-through;
   line-height: 1.5;
@@ -13,7 +13,7 @@
   text-shadow: 2px 2px 2px #000;
   word-spacing: 0.8em;
   letter-spacing: 0.2em;
-  font-size: 75em;
+  font-size: 15em;
 
 }
 
