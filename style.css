@@ -1,19 +1,15 @@
-.header-name {
-  color: pink;
+.header-name, .section-title {
+  color: black;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  /*text-shadow: 2px 2px 2px #000;*/
 }
 
-.biography p {
-  color: rgb(63, 191, 191);
+.text-style {
+  font-family: 'Shadows Into Light', cursive;
+  color: black;
+  font-size: 1.1em;
+  font-weight: lighter;
 }
 
-.biography h2 {
-  color: #0A980A;
-}
-
-.resume .section-title {
-  color: #0A980A;
-}
-
-.resume h2{
-      color: #0A980A;
-}
