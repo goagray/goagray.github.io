@@ -1,3 +1,19 @@
-p {
+.header-name {
+  color: pink;
+}
+
+.biography p {
   color: rgb(63, 191, 191);
+}
+
+.biography h2 {
+  color: #0A980A;
+}
+
+.resume.section-title {
+  color: #0A980A;
+}
+
+.resume h2{
+      color: #0A980A;
 }
