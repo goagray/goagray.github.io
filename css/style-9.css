@@ -4,6 +4,36 @@
 body {
 	/*height: 100%;*/
 	
-	background: purple url("../images/swirl.png") repeat-y center fixed;
-	
+	background-image: url("../images/swirl.png");
 }
+
+a {
+	color: gray;
+	text-decoration: underline;
+}
+
+a:link {
+	color: yellow;
+	text-decoration: overline;
+}
+
+a:visited {
+	color: red;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: line-through;
+}
+
+a:active {
+	color: pink;
+	text-decoration: none;
+}
+
+p::before {
+
+content: "Instructions: ";
+}
+
