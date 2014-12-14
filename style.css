@@ -3,6 +3,7 @@ body {
   font-family: Tahoma;
   color: #000000;
   font-size: 1em;
+  background-image: url("./images/absurdidad.png");
   
 }
 
@@ -14,8 +15,16 @@ hgroup {
 
 }
 
+h1 {
+  color: gray;
+}
+.socials {
+  clear: both;
+  padding-bottom:1em;
+  
+}
 .header-name, .section-title {
-  color: #000000;
+  color: #979797;
   font-size: 2em;
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
@@ -35,7 +44,9 @@ footer a {
 }
 
 header {
-   background-image: url("./images/notebook.png");
+   background-image: url("./images/binding_dark.png");
+  border-radius: 10px;
+  padding-left: 1em;
 }
 
 footer {
@@ -63,3 +74,8 @@ a:active {
   color: #99FF99;
 }
 
+img {
+  border-radius: 20px;
+  margin-top: 1em;
+  
+}
