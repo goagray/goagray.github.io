@@ -22,4 +22,23 @@ h1 {
 
 p {
 	margin: 0;
+  margin-bottom: 1em;
 }
+
+img {
+  float: right; 
+  margin-left: 10px;
+  margin-bottom: 10px; 
+}
+
+.clear {
+  clear: both;
+}
+
+.column {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
