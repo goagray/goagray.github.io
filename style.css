@@ -4,6 +4,7 @@ body {
   color: #000000;
   font-size: 1em;
   background-image: url("./images/absurdidad.png");
+  margin: 0;
   
 }
 
@@ -23,7 +24,14 @@ h1 {
   padding-bottom:1em;
   
 }
-.header-name, .section-title {
+.header-name {
+  color: #black;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+} 
+
+.section-title {
   color: #979797;
   font-size: 2em;
   font-family: 'Amatic SC', cursive;
@@ -38,19 +46,18 @@ h1 {
   font-weight: lighter;
 }
 
-footer a {
-  font-family: 'Righteous', cursive;
-  color: #5C5C5C;
-}
+
 
 header {
    background-image: url("./images/binding_dark.png");
-  border-radius: 10px;
+ /* border-radius: 10px;*/
   padding-left: 1em;
+  text-align: center;
 }
 
 footer {
-  background-color: #FFFF99;
+  background-color: gray;
+  text-align: center;
 }
 
 /*a {
@@ -74,8 +81,41 @@ a:active {
   color: #99FF99;
 }
 
+<style>
+.emaillink {
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+</style>
+
 img {
   border-radius: 20px;
   margin-top: 1em;
   
+}
+
+.biography {
+  width: 25%;
+  /*display: inline-block;*/
+  background-color: #99CCFF;
+  /*border-radius: 10px;*/
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resume {
+  width: 75%;
+  display: inline-block;
+}
+
+.inner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.break {
+  background-image: url("./images/binding_dark.png") ;
+  padding: 38px;
+  text-align: center;
 }
