@@ -22,8 +22,15 @@ h1 {
 .socials {
   clear: both;
   padding-bottom:1em;
+  font-size: 30px;
   
 }
+
+.navbar {
+  clear: both;
+  padding-bottom:1em;
+}
+
 .header-name {
   color: #black;
   font-size: 2em;
@@ -78,8 +85,7 @@ a:link {
 
 a:link.links {
   color: gray;
-  text-decoration: overline;
-
+  text-decoration: overline underline;
 }
 
 a:visited {
@@ -94,12 +100,15 @@ a:active {
   color: #99FF99;
 }
 
-<style>
+#myresume {
+  padding: 5px;
+}
+/*<style>
 .emaillink {
   font-family: 'Righteous', cursive;
   color: white;
 }
-</style>
+</style>*/
 
 img {
   border-radius: 20px;
@@ -122,11 +131,11 @@ img {
   display: inline-block;
 }
 
-.inner {
+/*.inner {
   width: 800px;
   margin: 0 auto;
 }
-
+*/
 .break {
   background-image: url("./images/binding_dark.png") ;
   padding: 38px;
