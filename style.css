@@ -46,9 +46,15 @@ h1 {
   font-weight: lighter;
 }
 
-
+.links {
+  color: gray;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+}
 
 header {
+  padding-top: 0;
    background-image: url("./images/binding_dark.png");
  /* border-radius: 10px;*/
   padding-left: 1em;
@@ -56,17 +62,24 @@ header {
 }
 
 footer {
-  background-color: gray;
+  background-image: url("./images/binding_dark.png");
   text-align: center;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
 
-/*a {
-  color: gray;
-  text-decoration: underline;
-}*/
+.links {
+  padding-right: 1em;
+}
 
 a:link {
-  color: #808080
+  color: #808080;
+}
+
+a:link.links {
+  color: gray;
+  text-decoration: overline;
+
 }
 
 a:visited {
