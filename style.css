@@ -32,6 +32,7 @@ body {
   border-radius: 5px;
   clear: both;
   display: inline-block;
+  text-align: center;
 }
 
 a:link {
@@ -113,6 +114,7 @@ header {
   color: #000000;
   font-size: 1.1em;
   font-weight: lighter;
+  text-align: justify;
 }
 
 
@@ -120,13 +122,12 @@ header {
 
 
 footer {
-  /*background-image: url("./images/binding_dark.png");*/
-  background-color: black;
+  background-image: url("./images/binding_dark.png");
+  /*background-color: black;*/
   text-align: center;
-  /*margin: 0 auto; 
-  padding-bottom: 0;*/
+  margin: 0 auto; 
+  padding: 5px;
   margin-bottom: auto;
-  
 }
 
 
