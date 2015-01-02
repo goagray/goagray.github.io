@@ -78,11 +78,6 @@ header {
   padding-left: 1em;
   background-image: url("./images/binding_dark.png") ;
   text-align: center;
-  /*opacity: 0.3;*/
-  /*border-color: rgb(32, 8, 193);background-color: black;
-  border-color: rgba(32, 8, 193, .8);
-  border-style: solid;
-  border-opacity: 0.8;*/
 }
 
 
@@ -100,14 +95,6 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
 } 
-
-.section-title {
-  color: #979797;
-  font-size: 2em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
-  /*text-shadow: 2px 2px 2px #000;*/
-}
 
 .text-style {
   font-family: 'Raleway', sans-serif;
@@ -137,6 +124,12 @@ footer {
 }
 
 
+
+
+
+/***************************************************
+MAIN CONTENT
+****************************************************/
 img {
   border-radius: 20px;
   margin-top: 1em;
@@ -144,10 +137,8 @@ img {
   border-color: white;
   
 }
-
-.biography {
+.maincontent{
   width: 25%;
-  /*display: inline-block;*/
   background-color: white;
   background-image: url("./images/binding_light.png");
   padding: 10px;
@@ -157,14 +148,12 @@ img {
   border-right: thick solid black;
 }
 
-.resume {
-  width: 75%;
-  display: inline-block;
+
+.bio {
+  display: block;
 }
 
-
-.break {
-  background-image: url("./images/binding_dark.png") ;
-  padding: 38px;
-  text-align: center;
+.res{
+  display: inline;
 }
+
