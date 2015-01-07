@@ -1,42 +1,123 @@
+h1 {
+  color: gray;
+}
+
+header {
+  padding: 0;
+  padding-left: 1em;
+  background-image: url("./images/absurdidad.png") ;
+  text-align: center;
+}
+
 body {
  
   font-family: Tahoma;
   color: #000000;
   font-size: 1em;
-  background-image: url("./images/absurdidad.png");
   margin: 0;
+}
+
+footer {
+  text-align: center;
   
 }
 
-
-/****************************************
-                NAVIGATION
-*****************************************/
 .navbar {
-  clear: both;
   padding-bottom:1em;
 }
 
-.links {
+.maincontent{
+  /*width: 25%;*/
+ /* background-color: white;
+  padding: 10px;*/
+ /* margin: 0 auto;
+  border-left: thick solid black;
+  border-right: thick solid black;
+  clear: both;*/
+  background-image: url("./images/white_carbon.png");
+}
+
+.bio {
+  vertical-align: top;
+  text-align: center;
+  /*width: 800px;*/
+  padding: 0 60px;
+  /*border: 20px solid black;*/
+  margin: 5px 0 10px 0;
+  width: 20%;
+  display: inline-block;
+}
+
+.bio img{
+  text-align: center;
+}
+
+.bio p{
+  text-align: left;
+}
+
+.resume {
+  vertical-align: top;
+  width: 65%;
+  display: inline-block;
+  clear: both;
+
+}
+
+.section-title {
+  color: #3333FF;
+  font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    margin: 15px;
+}
+
+.header-name {
+  color: #3333FF;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+h2.header-name  {
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+.text-style {
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-size: 1.1em;
+  font-weight: lighter;
+  /*text-align: justify;*/
+}
+/*****************************************
+NAV
+******************************************/
+.toplinks {
+    background-image: url("./images/white_carbon.png");
+
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  clear: both;
+  display: inline-block;
+  text-align: center;
   color: gray;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
   font-weight: 400l;
   padding-right: 1em;
+  text-decoration: none;
 }
 
-.toplinks {
-  background: black;
-  border-style: solid;
-  border-color: white;
-  border-radius: 5px;
-  clear: both;
-  display: inline-block;
-  text-align: center;
+#linkcontent {
+  padding: 5px;
 }
 
 a:link {
   color: #808080;
+  text-decoration: none;
 }
 
 a:link.links {
@@ -56,104 +137,7 @@ a:active {
   color: #99FF99;
 }
 
-
-
-/**************************************
-  HEADER
-**************************************/  
-hgroup {
-  font-family: 'Raleway', sans-serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 2em;
-
-}
-
-h1 {
-  color: gray;
-}
-
-header {
-  padding-top: 0;
-  padding-left: 1em;
-  background-image: url("./images/binding_dark.png") ;
-  text-align: center;
-}
-
-
-
 .socials {
-  clear: both;
-  padding-bottom:1em;
   font-size: 30px;
-  
+  padding: 0 auto 1em auto;
 }
-
-.header-name {
-  color: #3333FF;
-  font-size: 3em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
-} 
-
-.text-style {
-  font-family: 'Raleway', sans-serif;
-  color: #000000;
-  font-size: 1.1em;
-  font-weight: lighter;
-  text-align: justify;
-}
-
-
-
-
-
-footer {
-  background-image: url("./images/binding_dark.png");
-  /*background-color: black;*/
-  text-align: center;
-  margin: 0 auto; 
-  padding: 5px;
-  margin-bottom: auto;
-}
-
-
-
-#myresume {
-  padding: 5px;
-}
-
-
-
-
-
-/***************************************************
-MAIN CONTENT
-****************************************************/
-img {
-  border-radius: 20px;
-  margin-top: 1em;
-  border-style: solid;
-  border-color: white;
-  
-}
-.maincontent{
-  width: 25%;
-  background-color: white;
-  background-image: url("./images/binding_light.png");
-  padding: 10px;
-  text-align: center;
-  margin: 0 auto;
-  border-left: thick solid black;
-  border-right: thick solid black;
-}
-
-
-.bio {
-  display: block;
-}
-
-.res{
-  display: inline;
-}
-
