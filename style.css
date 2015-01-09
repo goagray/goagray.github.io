@@ -17,6 +17,12 @@ header {
   width: 100%;
   margin: 0px auto;
   height: 100px;*/
+  
+}
+
+.socials {
+  font-size: 30px;
+  padding: 0 auto 1em auto;
 }
 
 .headcontent {
@@ -25,10 +31,14 @@ header {
   text-align: center;
   background-color: lightblue;
   position: fixed;
+  top: 0;
   width: 100%;
   margin: 0px auto;
-  height: 100px;
+  z-index: 5;
+}
 
+.fixed {
+  position: fixed;
 }
 
 body {
@@ -63,6 +73,8 @@ footer {
   background-image: url("./images/white_carbon.png");
 }
 
+
+
 .bio {
   vertical-align: top;
   text-align: center;
@@ -75,11 +87,12 @@ footer {
 }
 
 .bio img{
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 180px;
   border-radius: 10px;
   border: 2px solid white;
+  z-index: 10;
 }
 
 .bio p{
@@ -172,7 +185,4 @@ a:active {
   color: #99FF99;
 }
 
-.socials {
-  font-size: 30px;
-  padding: 0 auto 1em auto;
-}
+
