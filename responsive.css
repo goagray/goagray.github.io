@@ -1,3 +1,10 @@
 body {
 	color: red;
 }
+
+.header-name {
+  color: purple;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
