@@ -19,15 +19,16 @@ header {
 }
 
 .headcontent {
-  padding: 0;
-  background-image: url("./images/absurdidad.png") ;
+  padding: 0px;
+  background-image: url("./images/absurdidad.png");
   text-align: center;
-  background-color: lightblue;
+  background-color: #000;
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: 0px;
+  width: 95%;
   margin: 0px auto;
   z-index: 5;
+  border: 2px solid #442D39;
 }
 
 .fixed {
@@ -41,6 +42,7 @@ body {
   font-size: 1em;
   margin: 0;
   background-color: black;
+  background-image: url("./images/binding_dark.png");
 }
 
 footer {
@@ -57,7 +59,6 @@ footer {
 }
 
 .maincontent{
-  background-image: url("./images/white_carbon.png");
   margin-top: 150px;
 }
 
@@ -68,7 +69,7 @@ footer {
   text-align: center;
   background: rgba(0,0,0,.5);
   padding: 0 20px;
-  margin: 5px 0 10px 0;
+  margin: 5px 30px 10px;
   width: 25%;
   display: inline-block;
 }
@@ -77,9 +78,10 @@ footer {
   position: fixed;
   top: 0px;
   right: 180px;
-  border-radius: 10px;
+  border-radius: 100%;
   border: 2px solid white;
   z-index: 10;
+  border: 2px solid #442D39;
 }
 
 .bio p{
@@ -97,6 +99,7 @@ footer {
   background-color: black;
   background: rgba(0,0,0,.5);
   padding-bottom: 87px;
+  margin-top: 5px;
 }
 
 .resume h1 {
