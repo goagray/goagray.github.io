@@ -35,7 +35,7 @@ header {
 }
 
 body {
-  padding: 0;
+  padding: 20px;
   font-family: Tahoma;
   color: #000000;
   font-size: 1em;
@@ -66,8 +66,8 @@ footer {
 .bio {
   vertical-align: top;
   text-align: center;
-
-  padding: 0 60px;
+  background: rgba(0,0,0,.5);
+  padding: 0 20px;
   margin: 5px 0 10px 0;
   width: 25%;
   display: inline-block;
@@ -84,6 +84,8 @@ footer {
 
 .bio p{
   text-align: left;
+  color: white;
+  font-weight: 400;
 }
 
 .resume {
@@ -91,7 +93,21 @@ footer {
   width: 65%;
   display: inline-block;
   clear: both;
+  z-index: -1;
+  background-color: black;
+  background: rgba(0,0,0,.5);
+  padding-bottom: 87px;
+}
 
+.resume h1 {
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.resume h2.header-name, ul, li {
+  color: white;
+  font-weight: 400;
 }
 
 .section-title {
