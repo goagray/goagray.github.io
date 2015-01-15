@@ -9,14 +9,7 @@ h1 {
 }
 
 header {
-  /*padding: 0;
-  background-image: url("./images/absurdidad.png") ;
-  text-align: center;
-  background-color: lightblue;
-  position: fixed;
-  width: 100%;
-  margin: 0px auto;
-  height: 100px;*/
+ 
   
 }
 
@@ -47,6 +40,7 @@ body {
   color: #000000;
   font-size: 1em;
   margin: 0;
+  background-color: black;
 }
 
 footer {
@@ -63,13 +57,6 @@ footer {
 }
 
 .maincontent{
-  /*width: 25%;*/
- /* background-color: white;
-  padding: 10px;*/
- /* margin: 0 auto;
-  border-left: thick solid black;
-  border-right: thick solid black;
-  clear: both;*/
   background-image: url("./images/white_carbon.png");
   margin-top: 150px;
 }
@@ -79,9 +66,8 @@ footer {
 .bio {
   vertical-align: top;
   text-align: center;
-  /*width: 800px;*/
+
   padding: 0 60px;
-  /*border: 20px solid black;*/
   margin: 5px 0 10px 0;
   width: 25%;
   display: inline-block;
