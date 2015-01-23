@@ -22,13 +22,13 @@ header {
   padding: 0px;
   background-image: url("./images/absurdidad.png");
   text-align: center;
-  background-color: #000;
+  background-color: #555;
   position: fixed;
   top: 0px;
   width: 95%;
   margin: 0px auto;
   z-index: 5;
-  border: 2px solid #442D39;
+  /*border: 2px solid #442D39;*/
 }
 
 .fixed {
@@ -36,13 +36,13 @@ header {
 }
 
 body {
-  padding: 20px 20px 0px 20px;
-  font-family: Tahoma;
-  color: #000000;
-  font-size: 1em;
-  margin: 0;
-  background-color: black;
-  background-image: url("./images/binding_dark.png");
+ padding: 20px 20px 0px 20px;
+font-family: Tahoma;
+color: #000000;
+font-size: 1em;
+margin: 0;
+background-color: rgb(249, 246, 246);
+background-image: url("./images/absurdidad.png");
 }
 
 footer {
@@ -65,12 +65,11 @@ footer {
 .bio {
   vertical-align: top;
   text-align: center;
-  background: rgba(0,0,0,.5);
+  background-color: white;
   padding: 0 20px;
   margin: 5px 30px 10px;
   width: 25%;
   display: inline-block;
-  border: 2px solid #442D39;
 }
 
 .bio img{
@@ -85,7 +84,7 @@ footer {
 
 .bio p{
   text-align: left;
-  color: white;
+  color: black;
   font-weight: 400;
 }
 
@@ -95,26 +94,25 @@ footer {
   display: inline-block;
   clear: both;
   z-index: -1;
-  background-color: black;
-  background: rgba(0,0,0,.5);
+  /*background-color: black;*/
+  background-color: white;
   padding-bottom: 103px;
   margin-top: 5px;
-  border: 2px solid #442D39;
 }
 
 .resume h1 {
   text-align: center;
   font-weight: bold;
-  color: whitesmoke;
+  color: #0D0D0D;
 }
 
 .resume h2.header-name, ul, li {
-  color: white;
+  color: black;
   font-weight: 400;
 }
 
 .section-title {
-  color: #3333FF;
+ color: #3333FF;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
@@ -122,7 +120,7 @@ footer {
 }
 
 .header-name {
-  color: #CBCBDA;
+  color: #8D8DE2;
   font-size: 3em;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
@@ -142,6 +140,8 @@ h1.header-name{
   font-weight: lighter;
   /*text-align: justify;*/
 }
+
+
 
 
 /*****************************************
@@ -182,4 +182,7 @@ a:active {
   color: #99FF99;
 }
 
+footer a {
+  color: black
+}
 
