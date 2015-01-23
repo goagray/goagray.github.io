@@ -180,7 +180,17 @@ a:active {
   color: #99FF99;
 }
 
-footer a {
-  color: black
+.toplinks a {
+  color: black;
+  text-decoration: overline;
+  background-color: purple;
 }
 
+.bottomlinks {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #8D8DE2;
+  background-color: #390160;
+
+}
