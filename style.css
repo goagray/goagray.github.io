@@ -98,11 +98,11 @@ footer {
   margin-top: 5px;
 }
 
-.resume h1 {
+/*.resume h1 {
   text-align: center;
   font-weight: bold;
   color: #0D0D0D;
-}
+}*/
 
 .resume h2.header-name, ul, li {
   color: black;
@@ -110,11 +110,12 @@ footer {
 }
 
 .section-title {
- color: #3333FF;
+  color: #0D0D0D;
   font-size: 2em;
   font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
   margin-top: 15px; 
+  text-align: center;
 }
 
 .header-name {
