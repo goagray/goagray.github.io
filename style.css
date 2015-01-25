@@ -129,7 +129,7 @@ h2.header-name  {
   font-weight: lighter;
 }
 h1.header-name{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courgette', sans-serif;
 }
 .text-style {
   font-family: 'Raleway', sans-serif;
@@ -192,5 +192,7 @@ a:active {
   text-decoration: none;
   color: #8D8DE2;
   background-color: #390160;
-
+  padding: 10px;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
