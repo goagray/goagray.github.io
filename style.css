@@ -59,9 +59,8 @@ footer {
   background: #555;
   overflow: hidden;
   margin-right: 27px;
+  margin-bottom: 20px;
 }
-
-
 
 .bio {
   vertical-align: top;
@@ -194,8 +193,9 @@ a:active {
   text-align: center;
   text-decoration: none;
   color: #8D8DE2;
-  background-color: #390160;
+  background-color: #06083F;
   padding: 10px;
   font-family: "Montserrat";
   font-weight: bold;
+  border-radius: 10px;
 }
