@@ -21,7 +21,7 @@ header {
 .headcontent {
   padding: 0px;
   text-align: center;
-  background-color: #06083F;
+  background-color: #390160;
   position: fixed;
   top: 0px;
   width: 95%;
@@ -56,9 +56,6 @@ footer {
 
 .maincontent{
   margin-top: 150px;
-  background: #555;
-  overflow: hidden;
-  margin-right: 27px;
 }
 
 
@@ -71,7 +68,6 @@ footer {
   margin: 5px 30px 10px;
   width: 25%;
   display: inline-block;
-  border: 1px solid #390160;
 }
 
 .bio img{
@@ -100,11 +96,13 @@ footer {
   background-color: white;
   padding-bottom: 82px;
   margin-top: 5px;
-  border: 1px solid #390160;
-  padding-left: 20px;
-  height: 605px;
 }
 
+/*.resume h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #0D0D0D;
+}*/
 
 .resume h2.header-name, ul, li {
   color: black;
